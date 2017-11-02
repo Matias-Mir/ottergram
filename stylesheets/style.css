@@ -39,6 +39,8 @@ a {
   padding: 0;
   white-space: nowrap;
   overflow-x: auto;
+  flex: 0 0 auto;
+  order: 2;
 }
 
 .thumbnail-item+.thumbnail-item {
@@ -70,5 +72,11 @@ a {
 }
 
 .main-content {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-image-container {
   flex: 1 1 auto;
 }
